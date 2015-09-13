@@ -1,0 +1,31 @@
+.responsiveBody{
+	display: flex;
+	justify-content: center;
+	xalign-items: center;
+}
+#app-guts{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background-color: #fff;
+}
+
+#garageDoorIs{
+	font-size:3em;
+	line-height:1.1em;
+}
+
+#doorState{
+	font-size:4em;
+	font-weight:bold;
+	line-height:1em;
+	text-decoration:underline;
+}
+
+.open{
+	color:#FF3333;
+}
+.closed{
+	color:#66FF33;
+}
